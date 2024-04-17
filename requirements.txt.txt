@@ -1,2 +1,0 @@
-pip install pickle5==0.0.11
-pip install scikit-learn==1.2.2
