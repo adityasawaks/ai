@@ -31,7 +31,7 @@ if st.button("Classify"):
     if text_input.strip() == "":
         st.warning("Please enter some text to classify.")
     elif len(text_input.split()) < 100:
-        st.warning("Please enter at least 200 words of text to classify.")
+        st.warning("Please enter at least 100 words of text to classify.")
     else:
         # Perform prediction
         prediction = predict(text_input)
