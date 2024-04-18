@@ -39,7 +39,7 @@ if st.button("Classify"):
             st.success("The text is classified as human-written.")
         else:
             st.success("The text is classified as AI-generated.")
-name = "Aditya"
+
 linkedin_id = "https://www.linkedin.com/in/aditya-kumar-saw-8493621a6/"
 
 # Display user's name and LinkedIn ID at the bottom
