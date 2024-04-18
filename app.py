@@ -30,6 +30,8 @@ text_input = st.text_area("To identify AI-generated content, such as ChatGPT, GP
 if st.button("Classify"):
     if text_input.strip() == "":
         st.warning("Please enter some text to classify.")
+    elif len(text_input.split()) < 200:
+        st.warning("Please enter at least 200 words of text to classify.")
     else:
         # Perform prediction
         prediction = predict(text_input)
@@ -43,5 +45,7 @@ if st.button("Classify"):
 linkedin_id = "https://www.linkedin.com/in/aditya-kumar-saw-8493621a6/"
 
 # Display user's name and LinkedIn ID at the bottom
-
 st.write(f"LinkedIn ID: {linkedin_id}")
+
+
+
