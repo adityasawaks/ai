@@ -43,5 +43,5 @@ if st.button("Classify"):
 linkedin_id = "https://www.linkedin.com/in/aditya-kumar-saw-8493621a6/"
 
 # Display user's name and LinkedIn ID at the bottom
-st.write(f"Name: {name}")
+
 st.write(f"LinkedIn ID: {linkedin_id}")
