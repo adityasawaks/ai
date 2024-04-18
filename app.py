@@ -21,10 +21,10 @@ def predict(text):
     return prediction
 
 # Streamlit UI
-st.title("AI vs. Human Text Classifier")
+st.title("Free AI detection")
 
 # Text input for user to enter text to classify
-text_input = st.text_area("Enter text to classify", "")
+text_input = st.text_area("To identify AI-generated content, such as ChatGPT, GPT-4, and Google Gemini, copy and paste your English text below.", "")
 
 # Button to trigger classification
 if st.button("Classify"):
