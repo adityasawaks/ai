@@ -30,7 +30,7 @@ text_input = st.text_area("To identify AI-generated content, such as ChatGPT, GP
 if st.button("Classify"):
     if text_input.strip() == "":
         st.warning("Please enter some text to classify.")
-    elif len(text_input.split()) < 200:
+    elif len(text_input.split()) < 100:
         st.warning("Please enter at least 200 words of text to classify.")
     else:
         # Perform prediction
