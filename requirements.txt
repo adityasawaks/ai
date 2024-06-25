@@ -1,2 +1,1 @@
-scikit_learn ==1.2.2
-pickle4
+scikit_learn 
