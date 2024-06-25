@@ -1,4 +1,3 @@
 scikit-learn == 1.2.2
 pandas == 2.2.2
 Cython==3.0.8
-murmurhash==1.0.10
